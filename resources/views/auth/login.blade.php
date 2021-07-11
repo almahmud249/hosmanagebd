@@ -22,7 +22,7 @@
                         {{session()->put('msg',NULL)}}
                         </div>
                         @endif
-                    <form method="POST" action="" class="form-signin">
+                    <form method="POST" action="{{ route('login') }}" class="form-signin">
                         @csrf
 						<div class="account-logo">
                             <a href="index-2.html"><img src="assets/img/logo-dark.png" alt=""></a>
